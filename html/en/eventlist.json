@@ -1,0 +1,83 @@
+[
+    {
+        "ActivityID": 0,
+        "date": "1481659200000",
+        "type": "Meeting",
+        "title": "39Th Gcc Steering Committee Meeting",
+        "description": "39Th Gcc Steering Committee Meeting Which Will Be Held In Abu Dhabi (12 \u0026 13 Of December 2016) . Venue Is Adnoc Hq 48Th Floor Adnoc Business Center",
+        "url": "http://www.adnoc.ae/",
+        "id": 136
+    },
+    {
+        "ActivityID": 0,
+        "date": "1462910400000",
+        "type": "Meeting",
+        "title": "Gcc Steering Committe Meeting #38",
+        "description": "38Th Gcc Steering Committee Meeting Which Will Be Held In Abu Dhabi (11 \u0026 12 Of May 2016) ",
+        "url": "http://www.adnoc.ae/",
+        "id": 128
+    },
+    {
+        "ActivityID": 0,
+        "date": "1449604800000",
+        "type": "Meeting",
+        "title": "Gcc Steering Committe Meeting #37",
+        "description": "Gcc Steering Committe Meeting #37",
+        "url": "http://www.adnoc.ae/",
+        "id": 129
+    },
+    {
+        "ActivityID": 0,
+        "date": "1446926400000",
+        "type": "Meeting",
+        "title": "31St Gcc Supply Chain Committee Meeting",
+        "description": "31St Gcc Supply Chain Committee Meeting - Abu Dhabi 2015",
+        "url": "http://www.adnoc.ae/",
+        "id": 115
+    },
+    {
+        "ActivityID": 0,
+        "date": "1431460800000",
+        "type": "Meeting",
+        "title": "Gcc Steering Committe Meeting #36",
+        "description": "Gcc Steering Committe Meeting #36",
+        "url": "http://www.adnoc.ae/",
+        "id": 135
+    },
+    {
+        "ActivityID": 0,
+        "date": "1431460800000",
+        "type": "Meeting",
+        "title": "Gcc Steering Committee Meeting #36",
+        "description": "Meeting To Be Help Between May 13 - 14, 2015 At Doha",
+        "url": "http://www.adnoc.ae/",
+        "id": 110
+    },
+    {
+        "ActivityID": 0,
+        "date": "1300046400000",
+        "type": "Meeting",
+        "title": "28Th Production And Maitenance Meeting",
+        "description": "28Th Gcc National Oil Companies Production \u0026 Maintenance Team Meeting, Held By Kuwait Oil Company (Koc). Venue - Marina Hotel. Salmiya-Kuwait",
+        "url": "http://www.adnoc.ae/",
+        "id": 114
+    },
+    {
+        "ActivityID": 0,
+        "date": "1256414400000",
+        "type": "Meeting",
+        "title": "25Th Production And Maitenance Meeting",
+        "description": "25Th Gcc Oil Companies Production \u0026 Maintenance Managers Team Meeting, Held At Saudi Arabian Oil Company (Saudi Aramco). Venue - Le Meridien Hotel, Al Khobar, Saudi Arabia",
+        "url": "http://www.adnoc.ae/",
+        "id": 113
+    },
+    {
+        "ActivityID": 0,
+        "date": "1238961600000",
+        "type": "Meeting",
+        "title": "24Th Production And Maitenance Meeting",
+        "description": "24Th Gcc Oil Companies Production \u0026 Maintenance Managers Team Meeting. Held At Bahrain Petroleum Company (Bapco), Awali, Bahrain. Venuegulf Hotel – Manama, Bahrain.",
+        "url": "http://www.adnoc.ae/",
+        "id": 112
+    }
+]

@@ -1,0 +1,178 @@
+@import 'base/index';
+.calendar {
+    .c-header {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        .c-grid-title {
+            float: left;
+        }
+        .c-next {
+            width: 12.5%;
+            height: 12%;
+            text-align: right;
+            cursor: pointer;
+            //opacity: 0.5;
+            &:after {
+                color: $grey;
+                @include ifont;
+                @include font-size($xxxl-font);
+                content: '\e315';
+            }
+        }
+        .c-previous {
+            width: 12.5%;
+            height: 12%;
+            text-align: left;
+            cursor: pointer;
+            //opacity: 0.5;
+            &:after {
+                color: $grey;
+                @include ifont;
+                @include font-size($xxxl-font);
+                content: '\e314';
+            }
+        }
+        .c-month {
+            width: 75%;
+            height: 12%;
+            text-align: center;
+            color: $green;
+            font-weight: bold;
+            @include font-size($xl-font);
+        }
+    }
+    .c-grid {
+        float: left;
+        width: 100%;
+        min-height: 320px;
+        .c-day {
+            width: 14.28%;
+            margin: 5px auto;
+            float: left;
+            text-align: center;
+            .c-day-wrp {
+                border-radius: 100%;
+                width: auto;
+                max-width: 40px;
+                margin: 0 auto;
+                padding: 10px 0;
+                max-height: 40px;
+            }
+        }
+        .c-day-previous-month {
+            width: 14.28%;
+            height: 13%;
+            float: left;
+            text-align: center;
+            opacity: 0;
+        }
+        .c-day-next-month {
+            width: 14.28%;
+            height: 13%;
+            float: left;
+            text-align: center;
+            opacity: 0;
+        }
+        .c-week-day {
+            width: 14.28%;
+            float: left;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $green;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .c-today {
+            .c-day-wrp {
+                background-color: $green;
+                color: $white;
+                font-weight: bold;
+            }
+        }
+        .c-event {
+            //background-color: rgb(166, 166, 166);
+            //color: white;
+            //font-weight: bold;
+            cursor: pointer;
+            .c-day-wrp {
+                position: relative;
+                &:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 15px;
+                    color: $green;
+                    @include ifont;
+                    @include font-size($xs-font);
+                    content: '\e061';
+                }
+            }
+        }
+    }
+    .c-event-grid {
+        height: inherit;
+        float: left;
+        width: 100%;
+        
+        .c-event-list {margin-top: -15px;}
+        .c-event-item {
+            background: $white;
+            margin: 30px auto;
+            width: 100%;
+            border: 1px solid $white;
+            @include transition(border 300ms, background 300ms);
+            .date-box {
+                float: left;
+                line-height: 1.5em;
+                @include font-size($lg-font);
+                text-transform: uppercase;
+                padding: 10px 15px;
+                font-weight: bold;
+                color:$grey;
+                span {
+                    display: block;
+                    @include font-size($xxl-font);
+                }
+                width: 80px;
+                text-align: center;
+            }
+            .event-box {
+                max-width: calc(100% - 80px);
+                float: left;
+                @include font-size($lg-font);
+                padding: 10px 10px 10px 0;
+                .title{font-weight: bold;color:$green;}
+                .description{}
+            }
+        }
+        .c-event-over{
+            //background: $silver;
+            border:1px solid $green;
+        }
+    }
+    @media(min-width: map-get($breakpoints, lg)) {
+        .c-grid {
+            width: 50%;
+            min-height: 370px;
+        }
+        .c-event-grid {
+            width: 50%;
+            padding-left: 50px;
+            .c-event-item {
+                .event-box{max-width: calc(100% - 100px);}
+                .date-box {
+                    width: 100px;
+                }
+            }
+        }
+    }
+    @media(min-width: map-get($breakpoints, xl)) {
+        .c-grid {
+            width: 40%;
+        }
+        .c-event-grid {
+            width: 60%;
+        }
+    }
+}

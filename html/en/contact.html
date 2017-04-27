@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>GCC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/app.en.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="container">
+
+            <ul>
+                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li class="separator"></li>
+                <li><a href="#"><i class="icon-search"></i></a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="pg-header">
+
+        <div class="container clearfix">
+
+            <div class="nav-brand">
+                <a href="#"><img src="../../dist/img/logo.png" alt="GCC" /> </a>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#"><i class="icon-help-outline"></i><span>Contact Us</span></a></li>
+                    <li>
+                        <a href="#" id="nav-login" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-person-outline"></i>
+                            <span>Login</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="nav-login">
+                            <div role="form" class="navbar-form navbar-right">
+                                <div class="form-group">
+
+                                    <input class="form-control form-control-sm" id="Login" data-val="true" data-val-required="Username is mandatory." maxlength="50"
+                                        name="loginModel.LoginName" placeholder="Enter email address" tabindex="1" type="text"
+                                        value="">
+                                </div>
+                                <div class="form-group">
+
+                                    <input class="form-control form-control-sm" id="Password" data-val="true" data-val-required="Password is mandatory" maxlength="20"
+                                        name="loginModel.Password" placeholder="Enter Password" tabindex="2" type="password">
+
+                                </div>
+                                <button class="btn btn-sm" type="submit" id="btnLogin" tabindex="3">Login <i class="icon-input"></i></button>
+                                <div class="forget_password">
+                                    <ul>
+                                        <li><a href="/User/Register">Create Account</a></li>
+                                        <li class="separator"></li>
+                                        <li><a href="/User/ForgotPassword">Forgot Password</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="pg-cover" style="background-image: url(../../content/contact-cover.jpg)">
+        <div class="cover-wrapper">
+
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col">
+                        <h1>Contact US</h1>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="pg-body">
+
+        <div class="content-section silver texture">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-lg-4 push-lg-8">
+
+                        <dl class="contact-tile">
+                            <dt>Office Address</dt>
+                            <dd>
+                                <p>
+                                    Abu Dhabi National Oil Company <br/>
+                                    P.O. Box : 898. Abu Dhabi
+                                    </p>
+                            </dd>
+
+                            <dt>Contact Details</dt>
+                            <dd>
+                                <p>
+                                    Tel : +971 0 0000000 
+<br/>Fax : +971 0 0000000
+                                </p>
+                            </dd>
+
+                        </dl>
+
+                    </div>
+
+
+                    <div class="col-12 col-lg-8  pull-lg-4">
+
+
+
+
+
+
+
+
+
+
+                        <div class="row form-horizontal contact-form">
+                            <div class="col-12 col-md-6">
+
+<div class="form-group">
+                                <label>Name</label>
+                                <div>
+                                    <input Class="form-control" data-val="true" data-val-required="Name is mandatory." id="Theme" name="FullName" placeholder="Enter Name"
+                                        type="text" value="" />
+                                    <span class="alert-error" id="FullnameError">
+                                                <span class="field-validation-valid" data-valmsg-for="FullName" data-valmsg-replace="true"></span>
+                                    </span>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+
+                            </div>
+                            <!-- /.form-group -->
+
+                            <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <div>
+                                    <input Class="form-control" data-val="true" data-val-required="Subject is mandatory." id="Theme" name="Subject" placeholder="Enter Subject"
+                                        type="text" value="" />
+                                    <span class="alert-error">
+                                                <span class="field-validation-valid" data-valmsg-for="Subject" data-valmsg-replace="true"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            </div>
+
+
+                            <!-- /.form-group -->
+                            <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label>Email Id</label>
+                                <div>
+                                    <input Class="form-control" data-val="true" data-val-regex="eMail is not in proper format" data-val-regex-pattern="^\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"
+                                        data-val-required="Email is mandatory" id="Theme" name="EmailID" placeholder="Enter Email"
+                                        type="text" value="" />
+                                    <span class="alert-error">
+                                                <span class="field-validation-valid" data-valmsg-for="EmailID" data-valmsg-replace="true"></span>
+                                    </span>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            </div>
+
+<div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label>Country<span class="mandatory-error">*</span></label>
+                                <div>
+                                     <select class="form-control" data-val="true" data-val-number="The field CountryId must be a number." data-val-required="The CountryId field is required." id="ddlSelectedCountry" name="CountryId"><option value="">--Select Country--</option>
+<option value="1">Bahrain</option>
+<option value="2">Kuwait</option>
+<option value="3">Oman</option>
+<option value="4">Qatar</option>
+<option value="5">Saudi Arabia</option>
+<option value="6">United Arab Emirates</option>
+<option value="7">Afghanistan</option>
+<option value="8">Albania</option>
+<option value="9">Algeria</option>
+<option value="10">American Samoa</option>
+<option value="11">Andorra</option>
+<option value="12">Angola</option>
+<option value="13">Anguilla</option>
+<option value="14">Antigua and Barbuda</option>
+<option value="15">Argentina</option>
+<option value="16">Armenia</option>
+<option value="17">Aruba</option>
+<option value="18">Australia</option>
+<option value="19">Austria</option>
+<option value="20">Azerbaijan</option>
+<option value="21">Bahamas</option>
+<option value="22">Bangladesh</option>
+<option value="23">Barbados</option>
+<option value="24">Belarus</option>
+<option value="25">Belgium</option>
+<option value="26">Belize</option>
+<option value="27">Benin</option>
+<option value="28">Bermuda</option>
+<option value="29">Bhutan</option>
+<option value="30">Bolivia</option>
+<option value="31">Bosnia and Herzegovina</option>
+<option value="32">Botswana</option>
+<option value="33">Brazil</option>
+<option value="34">Brunei Darussalam</option>
+<option value="35">Bulgaria</option>
+<option value="36">Burkina Faso</option>
+<option value="37">Burundi</option>
+<option value="38">Cambodia</option>
+<option value="39">Cameroon</option>
+<option value="40">Canada</option>
+<option value="41">Cape Verde</option>
+<option value="42">Cayman Islands</option>
+<option value="43">Central African Republic</option>
+<option value="44">Chad</option>
+<option value="45">Chile</option>
+<option value="46">China</option>
+<option value="47">Christmas Islands</option>
+<option value="48">Colombia</option>
+<option value="49">Comoros</option>
+<option value="50">Congo, Democrat Republic</option>
+<option value="51">Congo, Peoples Republic</option>
+<option value="52">Cook Islands</option>
+<option value="53">Costa Rica</option>
+<option value="54">Croatia</option>
+<option value="55">Cuba</option>
+<option value="56">Cyprus</option>
+<option value="57">Czech Republic</option>
+<option value="58">Denmark</option>
+<option value="59">Djibouti</option>
+<option value="60">Dominica, Commonwealth of</option>
+<option value="61">Dominican Republic</option>
+<option value="62">Ecuador</option>
+<option value="63">Egypt</option>
+<option value="64">El Salvador</option>
+<option value="65">Equatorial Guinea</option>
+<option value="66">Eritrea</option>
+<option value="67">Estonia</option>
+<option value="68">Ethiopia</option>
+<option value="69">Falkland Islands</option>
+<option value="70">Faroe Islands</option>
+<option value="71">Fiji</option>
+<option value="72">Finland</option>
+<option value="73">France</option>
+<option value="74">French Guiana</option>
+<option value="75">Gabon</option>
+<option value="76">Gambia</option>
+<option value="77">Georgia</option>
+<option value="78">Germany</option>
+<option value="79">Ghana</option>
+<option value="80">Gibraltar</option>
+<option value="81">Greece</option>
+<option value="82">Greenland</option>
+<option value="83">Grenada</option>
+<option value="84">Guam</option>
+<option value="85">Guatemala</option>
+<option value="86">Guinea, Rev Peoples Rep</option>
+<option value="87">Guinea-Bissau</option>
+<option value="88">Guyana</option>
+<option value="89">Haiti</option>
+<option value="90">Holy See (Vatican City)</option>
+<option value="91">Honduras</option>
+<option value="92">Hong Kong</option>
+<option value="93">Hungary</option>
+<option value="94">Iceland</option>
+<option value="95">India</option>
+<option value="96">Indonesia</option>
+<option value="97">Iran</option>
+<option value="98">Iraq</option>
+<option value="99">Ireland</option>
+<option value="100">Israel</option>
+<option value="101">Italy</option>
+<option value="102">Ivory Coast</option>
+<option value="103">Jamaica</option>
+<option value="104">Japan</option>
+<option value="105">Jordan</option>
+<option value="106">Kazakhstan</option>
+<option value="107">Kenya</option>
+<option value="108">Kiribati, Code</option>
+<option value="109">North Korea</option>
+<option value="110">South Korea</option>
+<option value="111">Kyrgystan</option>
+<option value="112">Lao</option>
+<option value="113">Latvia</option>
+<option value="114">Lebanon</option>
+<option value="115">Lesotho</option>
+<option value="116">Liberia</option>
+<option value="117">Libyan Arab Jamahiriya</option>
+<option value="118">Liechtenstein</option>
+<option value="119">Lithuania</option>
+<option value="120">Luxembourg</option>
+<option value="121">Macao</option>
+<option value="122">Macedonia</option>
+<option value="123">Madagascar</option>
+<option value="124">Malawi</option>
+<option value="125">Malaysia</option>
+<option value="126">Maldives</option>
+<option value="127">Mali</option>
+<option value="128">Malta</option>
+<option value="129">Martinique</option>
+<option value="130">Mauritania</option>
+<option value="131">Mauritius</option>
+<option value="132">Mexico</option>
+<option value="133">Micronesia</option>
+<option value="134">Moldova</option>
+<option value="135">Monaco</option>
+<option value="136">Mongolia</option>
+<option value="137">Montenegro</option>
+<option value="138">Montserrat</option>
+<option value="139">Morocco</option>
+<option value="140">Mozambique</option>
+<option value="141">Myanmar</option>
+<option value="142">Namibia</option>
+<option value="143">Nauru</option>
+<option value="144">Nepal</option>
+<option value="145">Netherlands</option>
+<option value="146">Netherlands Antilles</option>
+<option value="147">New Zealand</option>
+<option value="148">Nicaragua</option>
+<option value="149">Niger</option>
+<option value="150">Nigeria</option>
+<option value="151">Norway</option>
+<option value="152">Pakistan</option>
+<option value="153">Palau</option>
+<option value="154">Palestinian Territory</option>
+<option value="155">Panama</option>
+<option value="156">Papua New Guinea</option>
+<option value="157">Paraguay</option>
+<option value="158">Peru</option>
+<option value="159">Philippines</option>
+<option value="160">Poland</option>
+<option value="161">Portugal</option>
+<option value="162">Puerto Rico</option>
+<option value="163">Romania</option>
+<option value="164">Russian Federation</option>
+<option value="165">Rwanda</option>
+<option value="166">Saint Helena</option>
+<option value="167">San Marino</option>
+<option value="168">Sao Tome and Principe</option>
+<option value="169">Senegal</option>
+<option value="170">Serbia and Montenegro</option>
+<option value="171">Seychelles</option>
+<option value="172">Sierra Leone</option>
+<option value="173">Singapore</option>
+<option value="174">Slovakia</option>
+<option value="175">Slovenia</option>
+<option value="176">Somalia</option>
+<option value="177">South Africa</option>
+<option value="178">South Sudan</option>
+<option value="179">Spain</option>
+<option value="180">Sri Lanka</option>
+<option value="181">St Kitts and Nevis</option>
+<option value="182">St Lucia</option>
+<option value="183">St Pierre and Miquelon</option>
+<option value="184">St Vincent &amp; Grenadines</option>
+<option value="185">Sudan</option>
+<option value="186">Suriname</option>
+<option value="187">Swaziland</option>
+<option value="188">Sweden</option>
+<option value="189">Switzerland</option>
+<option value="190">Syrian Arab Republic</option>
+<option value="191">Taiwan</option>
+<option value="192">Tajikistan</option>
+<option value="193">Tanzania</option>
+<option value="194">Thailand</option>
+<option value="195">Togo</option>
+<option value="196">Tonga</option>
+<option value="197">Trinidad and Tobago</option>
+<option value="198">Tunisia</option>
+<option value="199">Turkey</option>
+<option value="200">Turkmenistan</option>
+<option value="201">Turks and Caicos Islands</option>
+<option value="202">Tuvalu</option>
+<option value="203">Uganda</option>
+<option value="204">Ukraine</option>
+<option value="205">United Kingdom</option>
+<option value="206">United States</option>
+<option value="207">Uruguay</option>
+<option value="208">Uzbekistan</option>
+<option value="209">Vanuatu</option>
+<option value="210">Venezuela</option>
+<option value="211">Vietnam</option>
+<option value="212">Virgin Islands (U.S.)</option>
+<option value="213">Yemen</option>
+<option value="214">Zambia</option>
+<option value="215">Zimbabwe</option>
+</select>
+
+                                </div>
+                            </div>
+</div>
+
+<div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label>Phone Number<span class="mandatory-error">*</span></label>
+                                <div>
+                                    <div class="phone-options">
+                                        <input Class="phone-option-1 form-control" id="ContryCode" name="ContryCode" readonly="readonly" type="text" value="" />
+                                        <input Class="phone-option-3  form-control" data-val="true" data-val-length="Number should be minimum 8 and not more than 10"
+                                            data-val-length-max="10" data-val-length-min="7" data-val-regex="MobileNumber should contain only numbers"
+                                            data-val-regex-pattern="^[0-9]{0,15}$" data-val-required="The MobileNo field is required."
+                                            id="Mobile" maxlength="13" name="MobileNo" placeholder="Ex:- 1234567" type="text"
+                                            value="" />
+                                        <span class="alert-error">
+                                                    <span class="field-validation-valid" data-valmsg-for="MobileNo" data-valmsg-replace="true"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+</div>
+
+<div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label>Priority</label>
+                                <div>
+
+                                    <select Class="timeControlDnd" data-val="true" data-val-number="The field PriorityId must be a number." data-val-required="The PriorityId field is required."
+                                        id="ddlCategory" name="PriorityId" placeholder="Select Hour">
+                                        <option value="">--Select--</option>
+<option value="1">General</option>
+<option value="2">Medium</option>
+<option value="3">High</option>
+</select>
+                                    <span class="alert-error">
+                                                <span class="field-validation-valid" data-valmsg-for="UserId" data-valmsg-replace="true"></span>
+                                    </span>
+                                    <span class="help-block"></span>
+
+                                </div>
+                            </div></div>
+
+<div class="col-12 ">
+                            <div class="form-group">
+                                <label>Message</label>
+                                <div>
+                                    <textarea class="form-control" data-val="true" data-val-required="Mail content is mandatory." id="Message" maxlength="500" name="MailBody"
+           rows="4"></textarea>
+                                    <span class="alert-error">
+                                                <span class="field-validation-valid" data-valmsg-for="MailBody" data-valmsg-replace="true"></span>
+                                    </span>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+</div>
+
+                           
+                           <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label>Security Check<span class="mandatory-error">*</span></label><em>Enter the charectors you see in the box</em>
+                                <div>
+
+                        
+                                    <img id="CaptchaImage" src="/DefaultCaptcha/Generate?t=d0da0b952a4c47f2af3293e155e8e41b" /><input
+                                        id="CaptchaDeText" name="CaptchaDeText" type="hidden" value="d0da0b952a4c47f2af3293e155e8e41b"
+                                    /> <br/><a href="#CaptchaImage" id="54cc4a492a1042929aa84d603178538e" onclick="______db584fa32e994fd19ac4c68fd5c3e994________()"
+                                        style="display:none;">Refresh</a><br/>Input symbols<br/><input  autocomplete="off" autocorrect="off"
+                                        id="CaptchaInputText" name="CaptchaInputText" type="text" value="" class="form-control" /><br/>
+                                    <span class="alert alert-error" id="errorCaptcha">
+                                                
+                                            </span>
+                                </div>
+
+                            </div></div>
+                            <!-- /.form-group -->
+
+
+<div class="col-12">
+                            <div class="form-group">
+                                
+                                    <button type="submit" class="btn btn-primary">Send Message</button> &nbsp;
+                                    
+                                
+                                <!-- /.col -->
+                            </div>
+</div>
+                            <!-- /.form-group -->
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+    <div class="content-section white ">
+
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>GCC National Oil Companies</h2>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="logo-grid">
+                <div class="row">
+
+                    <div class="col-6 col-md-4 col-lg-2 ">
+                        <div class="logo-tile">
+                            <a href="http://www.saudiaramco.com/" target="_blank"><img src="/content/logos/Saudi-Aramco.png" /></a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo-tile">
+                            <a href="http://www.adnoc.ae" target="_blank"><img src="/content/logos/ADNOC.png" /></a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo-tile">
+                            <a href="http://www.qp.com.qa/" target="_blank"><img src="/content/logos/QP.png" /></a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo-tile">
+                            <a href="http://www.kockw.com/" target="_blank"><img src="/content/logos/KOC.png" /></a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo-tile">
+                            <a href="http://www.pdo.co.om/" target="_blank"><img src="/content/logos/PDO.png" /></a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo-tile">
+                            <a href="http://www.bapco.net/" target="_blank"><img src="/content/logos/BAPCO.png" /></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="pg-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li class="separator"></li>
+                        <li><a href="#">Legal Disclaimer</a></li>
+                        <li class="separator"></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li class="separator"></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li class="separator"></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6">
+                    <p>Copyright 2017 GCC National Oil companies Steering Committe. All Rights Reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../../dist/js/app.en.js"></script>
+
+</body>
+
+</html>

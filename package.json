@@ -1,0 +1,52 @@
+{
+  "name": "omnia-gcc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server",
+    "build": "webpack",
+    "start": "concurrently \"npm run build\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "css-loader": "^0.26.1",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.10.1",
+    "gulp": "^3.9.1",
+    "ignore-loader": "^0.1.2",
+    "import-glob-loader": "^1.1.0",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.4",
+    "lite-server": "^2.3.0",
+    "loader-utils": "^1.0.4",
+    "node-sass": "^4.5.0",
+    "rtlbootstrap": "^4.0.0-alpha.7",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.1",
+    "uglify-loader": "^1.4.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-rtl-plugin": "^1.5.0"
+  },
+  "dependencies": {
+    "autosize": "^3.0.20",
+    "bootstrap": "^4.0.0-alpha.6",
+    "datatables.net": "^1.10.15",
+    "datatables.net-bs": "^1.10.15",
+    "icheck": "^1.0.2",
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-validation": "^1.16.0",
+    "jquery-validation-unobtrusive": "^3.2.6",
+    "rtl-ltr-prefix-loader": "^1.0.0",
+    "rtlcss-loader": "^1.0.2",
+    "selectric": "^1.11.1",
+    "swiper": "^3.4.1",
+    "tether": "^1.4.0"
+  }
+}

@@ -1,0 +1,218 @@
+@import 'base/index';
+.tile-01 {
+    h2 {
+        @include font-size($xl-font);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+    }
+    p {
+        padding: 10px 0;
+        margin: 0;
+    }
+    a {
+        margin: 15px auto 0;
+    }
+    @media (min-width: map-get($breakpoints, md)) {
+        h2 {
+            padding-top: 0;
+        }
+    }
+}
+
+.square-tile {
+    max-width: 280px;
+    position: relative;
+    img {
+        width: 100%;
+    }
+    .tile-content {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        color: $white;
+        padding: 15px;
+        h3 {
+            color: $white;
+            @include font-size($xl-font);
+            position: relative;
+            padding-top: 20px;
+            &:before {
+                content: ' ';
+                position: absolute;
+                border: 1px solid $green;
+                top: 5px;
+                width: 60px;
+            }
+        }
+        time {
+            @include font-size($xl-font);
+            margin: 0;
+            line-height: 2em;
+            font-weight: bold;
+            span {
+                @include font-size($huge-font);
+                display: block;
+                margin: 0;
+            }
+        }
+    }
+}
+
+dl.contact-tile {
+    padding: 15px;
+    dt {
+        color: $green;
+        @include font-size($lg-font);
+        font-weight: bold;
+        margin: 15px auto;
+        text-transform: uppercase;
+    }
+    dd {
+        color: $grey;
+        margin-bottom: 15px;
+    }
+}
+
+.profile-tile {
+    width: 100%;
+    display: table;
+    height: 100%;
+    >a {
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 auto;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: bold;
+        label {
+            margin: 0;
+        }
+        img {
+            width: 40px;
+            border-radius: 100%;
+            margin: 15px;
+        }
+    }
+    &.show {
+        background: lighten($petrol, 5%);
+        .dropdown-toggle{
+        &:after{
+        transform: rotate(-180deg);
+        }
+        }
+    }
+    .dropdown-toggle{
+        &:after{
+            border:none;
+            @include ifont;
+            content: '\e313';
+            line-height: 0;
+            margin: 0;
+            padding: 0;
+            margin-top: -2px;
+            width: auto;
+            @include font-size($lg-font);
+            @include transition(transform 300ms cubic-bezier(.77, .01, .21, 1));
+        }
+    }
+    .dropdown-menu {
+        width: 100%;
+        background: lighten($petrol, 5%);
+        border-radius: 0;
+        border-color: lighten($petrol, 5%);
+        margin: 0;
+        padding: 0;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                a {
+                    color: rgba($white,0.75);
+                    padding: 15px;
+                    display: block;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    @include font-size($sm-font);
+                    i {
+                        color: rgba($green,0.75);
+                        @include font-size($xl-font);
+                        margin-right: 15px;
+                    }
+                    &:hover {
+                        color: rgba($white,1);
+                        background: $petrol;
+                        i{color: rgba($green,1);}
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        &.show {
+            background: $green;
+            .dropdown-menu {
+                position: fixed;
+                width: calc(100% - 300px);
+                left: 300px;
+            }
+            .dropdown-toggle{
+        &:after{
+        transform: rotate(-90deg);
+        }
+        }
+        }
+        .dropdown-menu {
+            left: 100%;
+            top: 0;
+            height: 120px;
+            background: $green;
+            border-color: $green;
+          
+            width: 100%;
+
+            ul {
+                display: table;
+                height: 120px;
+                position: relative;
+                padding-left: 15px;
+                li {
+                    display: table-cell;
+                    vertical-align: middle;
+                    padding: 0 30px;
+                    a {
+
+                        i{color: rgba($white,0.75);}
+                        &:hover {
+                            color: rgba($white,1);
+                            background: none;
+                            i{color: rgba($white,1);}
+                        }
+                    }
+                }
+
+                &:before{
+                    content: '';
+                    height: 60px;
+                    border-left: 1px solid rgba($white,0.5);
+                    top: 30px;
+                    left: 0;
+                    position: absolute;
+
+                }
+            }
+        }
+    }
+    @media (min-width: map-get($breakpoints, xl)) {
+        &.show {
+            background: $green;
+            .dropdown-menu {
+                position: fixed;
+                width: calc(100% - 400px);
+                left: 400px;
+            }
+        }
+    }
+}

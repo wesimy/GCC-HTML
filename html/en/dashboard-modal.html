@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>GCC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/app.en.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="dashboard-header clearfix">
+        <div class="header-main clearfix">
+            <div class="header-brand">
+                <a href="#"><img src="../../dist/img/logo.png" alt="GCC" /> </a>
+            </div>
+            <div class="header-links">
+                <ul>
+                    <li><a href="#"><i class="icon-help-outline"></i><span>Help</span></a></li>
+                    <li><a href="#"><i class="icon-input"></i><span>Logout</span></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="header-profile  dropdown">
+            <div class="profile-tile">
+                <a href="#" class="dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img src="../../dist/img/placeholder/avatar.png" alt="User Profile" />
+                    <label>Last Name</label>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <ul>
+                        <li><a class="dropdown-item" href="#"><i class="icon-person-outline"></i> My Profile</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="icon-password"></i> Change Password</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-toggle">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dashboard-sidebar" aria-controls="dashboard-sidebar"
+                    aria-expanded="false" aria-label="Menu">Menu <span class="icon-menu"></span></button>
+            </div>
+        </div>
+    </div>
+    <!-- /header -->
+
+    <!-- sidebar -->
+    <div id="dashboard-sidebar" class="dashboard-sidebar">
+        <dl>
+            <dt><a class="collapsed" data-toggle="collapse" href="#sb-meetings" aria-expanded="false"><i class="icon-group"></i>Meetings</a></dt>
+            <dd class="collapse" id="sb-meetings">
+                <ul>
+                    <li><a href="#">Meetings Timeline</a></li>
+                    <li><a href="#">Create New Meeting</a></li>
+                </ul>
+            </dd>
+
+            <dt><a class="collapsed" data-toggle="collapse" href="#sb-create-new-meeting" aria-expanded="false"><i class="icon-location"></i>Create New Meeting</a></dt>
+            <dd class="collapse" id="sb-create-new-meeting">
+                <ul>
+                    <li><a href="#">Meetings Timeline</a></li>
+                    <li><a href="#">Create New Meeting</a></li>
+                </ul>
+            </dd>
+
+            <dt><a class="collapsed" data-toggle="collapse" href="#sb-annual-reports" aria-expanded="false"><i class="icon-report"></i>Annual Reports</a></dt>
+            <dd class="collapse" id="sb-annual-reports">
+                <ul>
+                    <li><a href="#">Meetings Timeline</a></li>
+                    <li><a href="#">Create New Meeting</a></li>
+                </ul>
+
+            </dd>
+        </dl>
+    </div>
+    <!-- /sidebar -->
+
+    <!-- content area -->
+    <div class="dashboard-content">
+        <div class="col">
+            <!-- breadcrumbs -->
+            <div class="row">
+                <div class="col">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Library</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- END: breadcrumbs -->
+
+            <!-- Start Timeline -->
+            <div class="row">
+                <div class="col">
+
+                    <div class="section-title">
+                        <h2>Modal Window</h2>
+                 
+                    </div>
+
+                    <div class="seciotn-body">
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open modal</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p>are you sure you want to remove this user?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info btn-sm " data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary btn-sm ">Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- END Timeline -->
+
+
+        </div>
+    </div>
+    <!-- /contentarea -->
+
+    <script src="../../dist/js/app.en.js"></script>
+</body>
+
+</html>

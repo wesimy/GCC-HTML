@@ -1,0 +1,161 @@
+@import 'base/index';
+html,
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscal;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: $white;
+    color: $petrol;
+    @include font-size($sm-font);
+}
+
+//////////////
+// headers
+////////////
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    color: $green;
+}
+.lead{font-weight: bold;
+@include font-size($sm-font);
+}
+
+//////////////
+// links
+////////////
+a {
+    @include transition(color 300ms, background 300ms);
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+        text-decoration: none;
+    }
+    &:focus{
+        outline: 0;
+    }
+}
+
+.link-arrow {
+    &:after {
+        @include ifont;
+        content: '\e315';
+        position: relative;
+        top: 5px;
+    }
+}
+
+//////////////
+// form
+////////////
+.form-control {
+    border-radius: 0;
+}
+button{&:focus{
+        outline: 0;
+    }}
+
+//////////////
+// buttons
+////////////
+ 
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    @include font-size($sm-font);
+}
+
+.btn-sm{
+    @include font-size($xs-font);
+}
+
+.btn-outline {
+    border: 2px solid $white;
+    &.btn-white {
+        border-color: $white;
+        color: $white;
+    }
+}
+
+.btn-primary{
+    background: $green;
+    border-color: $green;
+    color: $white;
+    &:hover,&:active,&:focus{
+        background: darken($green,10%);
+        border-color: $green;
+        box-shadow: none;
+        color: $white;
+    }
+}
+
+.btn-outline-primary{
+    border-color: $green;
+    color: $green;
+    &:hover{background-color: $green;border-color: $green;}
+}
+
+.btn-info{
+    background: $petrol;
+    border-color: $petrol;
+    color: $white;
+    &:hover,&:active,&:focus{
+        background: darken($petrol,10%);
+        border-color: $petrol;
+        box-shadow: none;
+        color: $white;
+    }
+}
+
+.btn-outline-info{
+    border-color: $petrol;
+    color: $petrol;
+    &:hover{background-color: $petrol;border-color: $petrol;}
+}
+
+///////////
+// Content section
+//////
+.content-section {
+    padding: 80px 0;
+    .section-title {
+        display: block;
+        width: 100%;
+        h2 {
+            display: inline;
+            @include font-size($xxl-font);
+        }
+        a {
+                float: right;
+                @include font-size($lg-font);
+                text-transform: uppercase;
+                color: $green;
+                &:after{
+                    @include font-size($xxl-font);
+                }
+            }
+    }
+    &.petrol {
+        background-color: $petrol;
+    }
+    &.white {
+        background-color: $white;
+    }
+    &.silver {
+        background-color: $silver;
+    }
+    &.texture {
+        background-image: url('../../dist/img/bg/pattern.png');
+    }
+}
