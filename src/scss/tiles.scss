@@ -216,3 +216,84 @@ dl.contact-tile {
         }
     }
 }
+
+.discussion-tile{
+    background: rgba($white,0.5);
+    margin-bottom: 30px;
+    padding: 20px;
+    h3 {
+                color: $petrol;
+                @include font-size($xl-font);
+                width: calc(100% - 90px);
+            }
+            p {
+                margin: 15px auto;
+                padding: 0;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    display: inline-block;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+            ul.item-meta {
+                font-weight: bold;
+                @include font-size($xs-font);
+            }
+            ul.item-download {
+                font-weight: bold;
+                @include font-size($xs-font);
+                width: 100%; // li +li{
+                // position: relative;
+                // padding-left: 10px;
+                // &:before{
+                //     content: '|';
+                //     position: absolute;
+                //     left: -5px;
+                // }
+                // }
+                li {
+                    //width: 50%;
+                    float: left;
+                    padding: 10px 30px 10px 0;
+                    a {
+                        color: $petrol;
+                        padding-left: 20px;
+                        position: relative;
+                        display: block;
+                        line-height: 1;
+                        text-transform: uppercase;
+                        i {
+                            @include font-size($lg-font);
+                            position: absolute;
+                            left: 0;
+                            top: calc(50% - 10px);
+                        }
+                    }
+                }
+            }
+            ul.item-actions {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                i {
+                    @include font-size($xl-font);
+                    vertical-align: middle;
+                    color: $petrol;
+                }
+                .btn {
+                    @include font-size($xs-font);
+                    i {
+                        @include font-size($xs-font);
+                        color: $white;
+                        margin-left: 2px;
+                        margin-right: 0;
+                    }
+                }
+            }
+}

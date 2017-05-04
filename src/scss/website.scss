@@ -64,6 +64,7 @@
                     }
                     &:hover {
                         background: $green;
+                        color:$white;
                         span,
                         i {
                             color: $white;
@@ -72,12 +73,18 @@
                 }
                 &.show {
                     >a {
+                        
+//                        border: 1px solid blue;
                         background: $green;
+                        color: $white ;
                         span,
                         i {
-                            color: $white;
+                            color: $white !important;
                         }
+                        
+                        
                     }
+                    
                 }
                 .dropdown-menu {
                     left: auto;
@@ -108,7 +115,9 @@
                             i {
                                 @include font-size($lg-font);
                                 position: relative;
-                                top: 1px;
+                                top: 3px;
+                                color:$green;
+                                margin-left: 5px;
                             }
                         }
                         ul {
@@ -160,7 +169,7 @@
             >ul {
                 >li {
                     >a {
-                        padding: 35px 30px;
+                        padding: 36px 30px;
                         span {
                             display: inline-block;
                         }
@@ -178,7 +187,7 @@
                         }
                     }
                     .dropdown-menu {
-                        width: 280px;
+                        width: 320px;
                     }
                 }
             }

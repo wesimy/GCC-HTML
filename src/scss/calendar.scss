@@ -143,7 +143,10 @@
                 @include font-size($lg-font);
                 padding: 10px 10px 10px 0;
                 .title{font-weight: bold;color:$green;}
-                .description{}
+                .description{
+                    color:$grey;
+                    @include font-size($sm-font);
+                }
             }
         }
         .c-event-over{

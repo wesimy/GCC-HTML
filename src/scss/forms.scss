@@ -1,15 +1,6 @@
 @import 'base/index';
 .contact-form {
-    .phone-options {
-        .phone-option-1 {
-            width: 25%;
-            float: left
-        }
-        .phone-option-3 {
-            width: 70%;
-            float: right
-        }
-    }
+    
     textarea {
         width: 100%;
     }
@@ -23,41 +14,35 @@
         .form-group {
             margin-bottom: 2em;
         }
-        .custom-file{width: 100%;
-        
-        .custom-file-control{
-            border-radius: 0;
-            &::before{
-            @include ifont();
-            content: "\e911";
-            @include font-size($lg-font);
-            border-radius: 0;
-        }
-        }
-        
-            
-        
-
-
-        }
-
-        .custom-file-image{
-            width: 20px;
-            .custom-file-control{
-         &::before{
-            @include ifont();
-            content: "\e90d";
-            //@include font-size($lg-font);
-            border-radius: 0;
-            background-color: $petrol;
-            color: $silver;
-            padding-left: 8px;
-            padding-right: 8px;
+        .custom-file {
+            width: 100%;
+            .custom-file-control {
+                border-radius: 0;
+                &::before {
+                    @include ifont();
+                    content: "\e911";
+                    @include font-size($lg-font);
+                    border-radius: 0;
+                }
             }
-            
-            &::after{
-                display: none;
-            }}
+        }
+        .custom-file-image {
+            width: 20px;
+            .custom-file-control {
+                &::before {
+                    @include ifont();
+                    content: "\e90d";
+                    //@include font-size($lg-font);
+                    border-radius: 0;
+                    background-color: $petrol;
+                    color: $silver;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+                &::after {
+                    display: none;
+                }
+            }
         }
     }
     .profile-image {
@@ -65,26 +50,98 @@
         display: block;
         width: 100%;
         text-align: center;
+        .thumbnail{
+            padding: 5px;
+        }
         img {
             border-radius: 100%;
-            max-width: 150px;
+            width: 150px;
+            height: 150px;
             margin: 15px auto;
-            width: 100%;
+           
             border: 5px solid $white;
             box-shadow: 0px 0px 2px $grey;
         }
         .image-actions {
             position: absolute;
-            bottom: 17px;
+            bottom: 0;
             right: 5px;
             color: $white;
             //background: $petrol;
             padding: 0;
             a {
-                background: $petrol;
+               // background: $petrol;
                 color: $white;
-                padding: 5px;
+               // padding: 5px;
             }
         }
+        i{
+                padding: 6px;
+    background: $petrol;
+    margin: 0 5px;
+        }
+        .fileupload-exists, .btn-file{padding-left: 0;padding-right: 0;}
     }
+}
+
+.field-validation-error {
+    color: $red;
+}
+
+.form-control{
+    &::placeholder {
+        color: lighten($grey,50%);
+    }
+}
+
+#CaptchaInputText {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+   
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+
+#CaptchaImage {
+    float: left;
+    margin: 15px 15px 15px 0;
+}
+
+.phone-options {
+        .phone-option-1 {
+            width: 25%;
+            float: left
+        }
+        .phone-option-3 {
+            width: 70%;
+            float: right
+        }
+    } 
+ 
+#layoutSuccess{
+    margin: 50px;
+    display: block;
+    
+}
+
+
+.login-box{
+    background: rgba($white,0.5);
+    border-radius: 5px;
+    padding: 40px;
+    &.text-center{
+    .form-control{text-align: center !important;}
+}
 }

@@ -13,7 +13,7 @@ var eventCalendar = (function () {
 
             var eCal = $('#calendar').eCalendar();
             _getEvents($('#calendar').data('url'));
-
+            //_eventsClickHandler();
         }
         
     },
@@ -23,6 +23,7 @@ var eventCalendar = (function () {
                 $('#calendar').eCalendar({
                     events: _mapEvents(d)
                 });
+                //_eventsClickHandler();
             })
                 .fail(function () {
                     console.log("error");
@@ -36,19 +37,33 @@ var eventCalendar = (function () {
                 var event = { 
                     title: e.title, 
                     description: e.description, 
-                    datetime: new Date(parseInt(e.date)) 
+                    datetime: new Date(parseInt(e.date)),
+                    id: e.id,
+                    url: e.url
                 };
                 events.push(event);
             });
             return events;
+        },
+        _eventsClickHandler = function(){
+            console.log('bind');
+              $('.eventBtn').on('click',function(){
+            console.log('click');
+  	     
+
+  
+	
+});
         };
     // Expose Global Functions
     return {
-        init: init
+        init: init,
+        bindEventsClickHandler: _eventsClickHandler
     };
 })();
 $().ready(function () {
     eventCalendar.init();
+    
 });
 
 
@@ -178,7 +193,10 @@ $().ready(function () {
                 }
                 var cWeekDay = $('<div/>').addClass('c-week-day c-pad-top');
 
+                  var cWeekDay = $('<div/>').addClass('c-week-day c-pad-top');
+                cWeekDay.html(settings.weekDays[dayOfWeek]);
                 cBody.append(cWeekDay);
+                
                 dayOfWeek++;
             }
             var day = 1;
@@ -186,7 +204,7 @@ $().ready(function () {
             for (var i = 0; i < 42; i++) {
                 var cDay = $('<div/>');
                 var cDayWrp = $('<div/>');
-                cDayWrp.addClass('c-day-wrp');
+                cDayWrp.addClass('c-day-wrp'); 
 
                 if (i < dWeekDayOfMonthStart) {
                     cDay.addClass('c-day-previous-month c-pad-top');
@@ -236,7 +254,14 @@ $().ready(function () {
                         type_url = settings.events[i].url_blank !== undefined &&
                             settings.events[i].url_blank === true ?
                             '_blank' : '';
-                        description.wrap('<a href="' + settings.events[i].url + '" target="' + type_url + '" ></a>');
+                            var u = '/Common/ActivityDetail?actId=' + settings.events[i].id;
+                            //eventbox.wrap('<a data-toggle="modal" data-target="#eventModal" class="eventBtn"  href="/Common/ActivityDetail?actId=' + settings.events[i].id + '" target="' + type_url + '" ></a>');
+                        
+                        $(item).on('click',function(){
+                                
+                                   $('#eventModal').find('.modal-body').load( u  ,function(result){
+	                                   $('#eventModal').modal({show:true});});
+                            });
                     }
 
                     eventList.append(item);

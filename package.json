@@ -43,6 +43,7 @@
     "jquery-ui": "^1.12.1",
     "jquery-validation": "^1.16.0",
     "jquery-validation-unobtrusive": "^3.2.6",
+    "jquery.nicescroll": "^3.6.8",
     "rtl-ltr-prefix-loader": "^1.0.0",
     "rtlcss-loader": "^1.0.2",
     "selectric": "^1.11.1",

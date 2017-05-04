@@ -20462,49 +20462,49 @@ webpackContext.id = 11;
 /* 13 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 15 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 16 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 18 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: A valid query string passed to parseQuery should begin with '?'\n    at Object.parseQuery (/Users/admin/Projects/GCC-HTML/node_modules/loader-utils/lib/parseQuery.js:13:9)\n    at Object.module.exports (/Users/admin/Projects/GCC-HTML/node_modules/rtlcss-loader/lib/loader.js:16:26)\n    at /Users/admin/Projects/GCC-HTML/node_modules/webpack/lib/NormalModule.js:192:19\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at runSyncOrAsync (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:130:11)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:229:2)\n    at iterateNormalLoaders (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:218:10)\n    at /Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:233:3\n    at context.callback (/Users/admin/Projects/GCC-HTML/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/sass-loader/lib/loader.js:81:9)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:2262:31)\n    at apply (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:20:25)\n    at Object.<anonymous> (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:56:12)\n    at Object.callback (/Users/admin/Projects/GCC-HTML/node_modules/async/dist/async.js:944:16)\n    at options.success (/Users/admin/Projects/GCC-HTML/node_modules/node-sass/lib/index.js:308:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 21 */
@@ -20606,7 +20606,7 @@ var eventCalendar = (function () {
 
             var eCal = $('#calendar').eCalendar();
             _getEvents($('#calendar').data('url'));
-
+            //_eventsClickHandler();
         }
         
     },
@@ -20616,6 +20616,7 @@ var eventCalendar = (function () {
                 $('#calendar').eCalendar({
                     events: _mapEvents(d)
                 });
+                //_eventsClickHandler();
             })
                 .fail(function () {
                     console.log("error");
@@ -20629,19 +20630,33 @@ var eventCalendar = (function () {
                 var event = { 
                     title: e.title, 
                     description: e.description, 
-                    datetime: new Date(parseInt(e.date)) 
+                    datetime: new Date(parseInt(e.date)),
+                    id: e.id,
+                    url: e.url
                 };
                 events.push(event);
             });
             return events;
+        },
+        _eventsClickHandler = function(){
+            console.log('bind');
+              $('.eventBtn').on('click',function(){
+            console.log('click');
+  	     
+
+  
+	
+});
         };
     // Expose Global Functions
     return {
-        init: init
+        init: init,
+        bindEventsClickHandler: _eventsClickHandler
     };
 })();
 $().ready(function () {
     eventCalendar.init();
+    
 });
 
 
@@ -20771,7 +20786,10 @@ $().ready(function () {
                 }
                 var cWeekDay = $('<div/>').addClass('c-week-day c-pad-top');
 
+                  var cWeekDay = $('<div/>').addClass('c-week-day c-pad-top');
+                cWeekDay.html(settings.weekDays[dayOfWeek]);
                 cBody.append(cWeekDay);
+                
                 dayOfWeek++;
             }
             var day = 1;
@@ -20779,7 +20797,7 @@ $().ready(function () {
             for (var i = 0; i < 42; i++) {
                 var cDay = $('<div/>');
                 var cDayWrp = $('<div/>');
-                cDayWrp.addClass('c-day-wrp');
+                cDayWrp.addClass('c-day-wrp'); 
 
                 if (i < dWeekDayOfMonthStart) {
                     cDay.addClass('c-day-previous-month c-pad-top');
@@ -20829,7 +20847,14 @@ $().ready(function () {
                         type_url = settings.events[i].url_blank !== undefined &&
                             settings.events[i].url_blank === true ?
                             '_blank' : '';
-                        description.wrap('<a href="' + settings.events[i].url + '" target="' + type_url + '" ></a>');
+                            var u = '/Common/ActivityDetail?actId=' + settings.events[i].id;
+                            //eventbox.wrap('<a data-toggle="modal" data-target="#eventModal" class="eventBtn"  href="/Common/ActivityDetail?actId=' + settings.events[i].id + '" target="' + type_url + '" ></a>');
+                        
+                        $(item).on('click',function(){
+                                
+                                   $('#eventModal').find('.modal-body').load( u  ,function(result){
+	                                   $('#eventModal').modal({show:true});});
+                            });
                     }
 
                     eventList.append(item);
@@ -20921,8 +20946,11 @@ $().ready(function () {
      // Page Initalization handler : exposed to app.init();
      //-----------------------------------------------------------------
      var init = function () { 
-           $('select').selectric();
+           $('select:not([multiple])').selectric();
+            _sidebarHandler();
              //_stickyNavHandler('sticky');
+         
+          
          },
        
          
@@ -20934,6 +20962,10 @@ $().ready(function () {
                      $('#page-hd').addClass(c);
                  }
              }); 
+         },
+         
+         _sidebarHandler = function(){
+              $("#dashboard-sidebar dl").niceScroll();
          };
          // Expose Global Functions
      return {

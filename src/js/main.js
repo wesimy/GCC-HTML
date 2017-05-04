@@ -8,8 +8,11 @@
      // Page Initalization handler : exposed to app.init();
      //-----------------------------------------------------------------
      var init = function () { 
-           $('select').selectric();
+           $('select:not([multiple])').selectric();
+            _sidebarHandler();
              //_stickyNavHandler('sticky');
+         
+          
          },
        
          
@@ -21,6 +24,10 @@
                      $('#page-hd').addClass(c);
                  }
              }); 
+         },
+         
+         _sidebarHandler = function(){
+              $("#dashboard-sidebar dl").niceScroll();
          };
          // Expose Global Functions
      return {

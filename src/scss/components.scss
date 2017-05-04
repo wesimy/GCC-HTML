@@ -81,6 +81,13 @@
     }
 }
 
+.ui-dialog{
+    padding: 0;
+    border:0 !important;
+    p{margin: 15px 0;
+    }
+}
+
 /////////
 // Pagination
 ////////////
@@ -210,6 +217,89 @@
                     top: auto;
                     right: 20px;
                 }
+            }
+        }
+    }
+}
+
+
+.gallery-component{
+    .gallery-thumb{
+        a{
+            display: inline-block; 
+            padding: 10px 0;
+             img{
+            width: 100%;
+            }
+        }
+    }
+    @media (min-width: map-get($breakpoints, md)) {
+        .gallery-thumb{
+            }
+    }
+    
+    @media (min-width: map-get($breakpoints, md)) {
+         .gallery-thumb{
+             
+        }
+    }
+}
+
+.datatable-component{
+    width: 100%;
+    padding-bottom: 30px;
+    thead{
+        background: $petrol;
+        color: $white;
+    }
+    tr.even{
+        background: $white;
+    }
+   
+    .dataTables_paginate{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+         a{margin: 5px ;padding: 5px;cursor: pointer;}
+    }
+    .dataTables_info{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .dataTables_length, .dataTables_filter{
+        display: none;
+    }
+     @media (max-width: map-get($breakpoints, md)) {
+       overflow-x: scroll; 
+        
+    }
+      @media (min-width: map-get($breakpoints, md)) {
+      
+         .dataTables_paginate{text-align: right;}
+         .dataTables_info{text-align: left;}
+    }
+}
+
+.fileupload{
+    .form-control{
+        flex-direction: row;
+        justify-content: flex-start;
+        min-height: 37px;
+        i.fa{margin-right: 10px;}
+    }
+    .input-group-btn{
+            position: absolute;
+            right: 0;
+            flex-flow: inherit;
+            z-index: 10;
+        
+        .btn{
+            color:lighten($grey,50%) !important;
+            padding-left: 10px;
+            padding-right: 10px;
+            &:hover{
+                color:$grey;
             }
         }
     }

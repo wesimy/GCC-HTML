@@ -138,7 +138,7 @@
             width: 400px
         }
     }
-}
+} 
 
 .dashboard-sidebar {
     padding-top: 120px;
@@ -152,7 +152,7 @@
     dl{
         display: block;
         margin: 0 auto;
-        
+        height: 100%;
         dt{
             
             &:first-child{
@@ -247,7 +247,7 @@
     @include transition(margin 300ms cubic-bezier(.77, .01, .21, 1));
 
     .seciotn-body{
-        max-width: 920px;
+        //max-width: 920px;
     }
     @media (min-width: map-get($breakpoints, lg)) {
         margin-left: 300px;

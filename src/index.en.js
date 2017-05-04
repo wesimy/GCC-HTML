@@ -18,7 +18,7 @@ require('jquery-validation-unobtrusive');
 require('bootstrap');
 require('swiper'); 
 require('selectric'); 
-
+require('jquery.nicescroll'); 
 
 
 //////////////////  
