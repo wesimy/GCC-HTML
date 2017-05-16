@@ -10962,6 +10962,9 @@ button.swiper-pagination-bullet {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-forum:before {
+  content: "\E914"; }
+
 .icon-password:before {
   content: "\E913"; }
 

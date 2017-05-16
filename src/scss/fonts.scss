@@ -33,37 +33,6 @@
 }
 
 
-// Arabic Font Face
-
-// @font-face {
-// 	font-family: 'Cairo';
-// 	src: url('/dist/fonts/Cairo/Cairo-Light.eot');
-// 	src: url('/dist/fonts/Cairo/Cairo-Light.eot?#iefix') format('embedded-opentype'),
-// 		url('/dist/fonts/Cairo/Cairo-Light.woff') format('woff'),
-// 		url('/dist/fonts/Cairo/Cairo-Light.ttf') format('truetype');
-// 	font-weight: lighter;
-// 	font-style: normal;
-// }
-
-// @font-face {
-// 	font-family: 'Cairo';
-// 	src: url('/dist/fonts/Cairo/Cairo-Regular.eot');
-// 	src: url('/dist/fonts/Cairo/Cairo-Regular.eot?#iefix') format('embedded-opentype'),
-// 		url('/dist/fonts/Cairo/Cairo-Regular.woff') format('woff'),
-// 		url('/dist/fonts/Cairo/Cairo-Regular.ttf') format('truetype');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-
-// @font-face {
-// 	font-family: 'Cairo';
-// 	src: url('/dist/fonts/Cairo/Cairo-Bold.eot');
-// 	src: url('/dist/fonts/Cairo/Cairo-Bold.eot?#iefix') format('embedded-opentype'),
-// 		url('/dist/fonts/Cairo/Cairo-Bold.woff') format('woff'),
-// 		url('/dist/fonts/Cairo/Cairo-Bold.ttf') format('truetype');
-// 	font-weight: bold;
-// 	font-style: normal;
-// }
 
 
 
@@ -93,6 +62,10 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-forum:before {
+  content: "\e914";
 }
 
 .icon-password:before {
