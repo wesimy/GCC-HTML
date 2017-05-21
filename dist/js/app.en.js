@@ -26579,7 +26579,18 @@ $().ready(function () {
                     var eventbox = $('<div/>').addClass('event-box');
                     item.attr('data-event-day', d.getDate());
                     item.on('mouseover', mouseOverItem).on('mouseleave', mouseLeaveItem);
-                    eventbox.append(title).append(description);
+
+                    if(settings.events[i].description)
+                    {
+                        
+                         eventbox.append(title).append(description);
+                    }
+                    else{
+                         eventbox.append(title);
+                    }
+
+                   
+                    
                     item.append(datebox).append(eventbox);
 
                     // Add the url to the description if is set
