@@ -370,4 +370,23 @@
         h1{@include font-size($xxl-font);margin: 15px 0;}
         time{color:$grey;@include font-size($sm-font);margin-bottom: 15px;display: block;}
     }
+    .pagination{
+        border-radius: 0;
+        .page-item{
+            .page-link{
+                background: none;
+            border-radius: 0;
+            border:0;
+            color:lighten($grey,15%);
+           
+            }
+             &.active{
+                .page-link{color:$green;font-weight: bold;}
+            }
+            &.disabled{
+                .page-link{color:lighten($grey,40%);}
+            }
+            
+        }
+    }
 }
