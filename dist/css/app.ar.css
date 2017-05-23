@@ -10806,7 +10806,8 @@ button.swiper-pagination-bullet {
   font-weight: normal;
   font-style: normal; }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -10818,6 +10819,39 @@ button.swiper-pagination-bullet {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-activity_managment:before {
+  content: "\E915"; }
+
+.icon-content:before {
+  content: "\E916"; }
+
+.icon-drilling:before {
+  content: "\E917"; }
+
+.icon-events:before {
+  content: "\E918"; }
+
+.icon-exploration:before {
+  content: "\E919"; }
+
+.icon-hse:before {
+  content: "\E91A"; }
+
+.icon-material:before {
+  content: "\E91B"; }
+
+.icon-news:before {
+  content: "\E91C"; }
+
+.icon-production:before {
+  content: "\E91D"; }
+
+.icon-seteering:before {
+  content: "\E91E"; }
+
+.icon-user_managment:before {
+  content: "\E91F"; }
 
 .icon-forum:before {
   content: "\E914"; }
