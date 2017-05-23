@@ -192,7 +192,7 @@ $().ready(function () {
                     dayOfWeek = 0;
                 }
                 var cWeekDay = $('<div/>').addClass('c-week-day c-pad-top');
-
+ 
                   var cWeekDay = $('<div/>').addClass('c-week-day c-pad-top');
                 cWeekDay.html(settings.weekDays[dayOfWeek]);
                 cBody.append(cWeekDay);
@@ -218,7 +218,7 @@ $().ready(function () {
                         var d = settings.events[j].datetime;
                         if (d.getDate() == day && d.getMonth() == dMonth && d.getFullYear() == dYear) {
                             cDay.addClass('c-event').attr('data-event-day', d.getDate());
-                            cDay.on('mouseover', mouseOverEvent).on('mouseleave', mouseLeaveEvent);
+                            cDay.on('click', mouseOverEvent).on('mouseleave', mouseLeaveEvent);
                         }
                     }
                     cDayWrp.html(day++);
