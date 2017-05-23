@@ -27,7 +27,9 @@
          },
          
          _sidebarHandler = function(){
-              $("#dashboard-sidebar dl").niceScroll();
+              $("#dashboard-sidebar dl").slimScroll({
+        height: '100%'
+    });
          };
          // Expose Global Functions
      return {

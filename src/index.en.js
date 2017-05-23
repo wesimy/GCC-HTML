@@ -19,7 +19,7 @@ require('bootstrap');
 require('swiper'); 
 require('selectric'); 
 require('jquery.nicescroll'); 
-
+require('jquery-slimscroll'); 
 
 //////////////////  
 // APP SCSS FILES

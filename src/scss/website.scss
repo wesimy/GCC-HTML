@@ -250,18 +250,20 @@
                 color: $white;
                 h2 {
                     color: $white;
-                    margin: 30px auto;
-                    @include font-size($xxxl-font);
+                    margin: 30px;
+                    @include font-size($xl-font);
                     font-weight: bold;
                 }
                 time {
-                    margin: 0;
+                    margin: 0 30px;
                     padding: 0;
                     @include font-size($xxl-font);
                     font-weight: normal;
+                    
                 }
                 .btn {
-                    margin: 0;
+                    margin: 0 30px;
+
                 }
             }
         }
@@ -295,6 +297,18 @@
     }
     @media (min-width: map-get($breakpoints, md)) {
         height: 70%;
+        .swiper-container {
+            .swiper-slide {
+
+            .slide-content {
+  
+                h2 {
+                    @include font-size($xxxl-font);}
+                 }
+                
+            }
+
+        }
     }
     @media (min-width: map-get($breakpoints, lg)) {
         height: 75%;
