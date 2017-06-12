@@ -92,6 +92,13 @@
     &::placeholder {
         color: lighten($grey,50%);
     }
+    
+}
+
+.form-group{
+    .alert-error{
+        color: $red;
+    }
 }
 
 #CaptchaInputText {
@@ -136,6 +143,9 @@
     
 }
 
+.alert alert-error{
+    color: $red;
+}
 
 .login-box{
     background: rgba($white,0.5);
