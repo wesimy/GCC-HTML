@@ -79,5 +79,14 @@
         "description": "24Th Gcc Oil Companies Production \u0026 Maintenance Managers Team Meeting. Held At Bahrain Petroleum Company (Bapco), Awali, Bahrain. Venuegulf Hotel – Manama, Bahrain.",
         "url": "http://www.adnoc.ae/",
         "id": 112
+    },
+    {
+        "ActivityID": 0,
+        "date": "1238961600000",
+        "type": "Meeting",
+        "title": "24Th Production And Maitenance Meeting",
+        "description": "24Th Gcc Oil Companies Production \u0026 Maintenance Managers Team Meeting. Held At Bahrain Petroleum Company (Bapco), Awali, Bahrain. Venuegulf Hotel – Manama, Bahrain.",
+        "url": "http://www.adnoc.ae/",
+        "id": 111
     }
 ]

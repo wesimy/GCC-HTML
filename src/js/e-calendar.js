@@ -241,6 +241,7 @@ $().ready(function () {
                     var description = $('<div/>').addClass('description').html(settings.events[i].description + '<br/>');
                     var eventbox = $('<div/>').addClass('event-box');
                     item.attr('data-event-day', d.getDate());
+                    item.attr('data-event-id', settings.events[i].id);
                     item.on('mouseover', mouseOverItem).on('mouseleave', mouseLeaveItem);
 
                     if(settings.events[i].description)
@@ -265,12 +266,13 @@ $().ready(function () {
                         type_url = settings.events[i].url_blank !== undefined &&
                             settings.events[i].url_blank === true ?
                             '_blank' : '';
-                            var u = '/Common/ActivityDetail?actId=' + settings.events[i].id;
+                            var u = '/Common/ActivityDetail?actId=' ;
                             //eventbox.wrap('<a data-toggle="modal" data-target="#eventModal" class="eventBtn"  href="/Common/ActivityDetail?actId=' + settings.events[i].id + '" target="' + type_url + '" ></a>');
                         
                         $(item).on('click',function(){
-                                
-                                   $('#eventModal').find('.modal-body').load( u  ,function(result){
+                                    var id = $(this).data('event-id');
+                                    //u + settings.events[i].id
+                                   $('#eventModal').find('.modal-body').load( u + id  ,function(result){
 	                                   $('#eventModal').modal({show:true});});
                             });
                     }
