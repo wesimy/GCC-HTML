@@ -261,6 +261,10 @@
         padding-bottom: 15px;
         text-align: center;
          a{margin: 5px ;padding: 5px;cursor: pointer;}
+         .paginate_active{
+             font-weight: bold;
+             color: $green;
+         }
     }
     .dataTables_info{
         padding-top: 15px;
@@ -295,12 +299,32 @@
             z-index: 10;
         
         .btn{
-            color:lighten($grey,50%) !important;
+            color:$grey !important;
             padding-left: 10px;
             padding-right: 10px;
             &:hover{
                 color:$grey;
             }
         }
+    }
+    .fileupload-exists{
+        position: absolute;
+        right: 25px;
+        z-index: 20;
+    }
+    .btn-file{
+        position: relative;
+        z-index: 15;
+    }
+    .input-group{
+        width: 100%;
+        
+        .fileupload-new, .fileupload-exists{
+            float: right;
+        }
+    }
+    .fileupload-preview{
+        color:$grey !important;
+        padding-right: 40px;
     }
 }

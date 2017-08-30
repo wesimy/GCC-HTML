@@ -11,8 +11,93 @@
     <title>GCC</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/app.en.css" rel="stylesheet">
+    <link href="http://gcc.website.design.omniaconnect.net/Content/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/icheck/skins/minimal/blue.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/select2/select2.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/datepicker/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/simplecolorpicker/jquery.simplecolorpicker.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/timepicker/bootstrap-timepicker.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/fileupload/bootstrap-fileupload.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/jqueryUI/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/jqueryUI/jquery-ui.theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../dist/css/jquery.ui.timepicker.css" rel="stylesheet" type="text/css" />
 
+    <link href="http://gcc.website.design.omniaconnect.net/Content/js/plugins/multiple-select/jquery.multiselect.css" rel="stylesheet" type="text/css" />
+    <!-- App CSS -->
+    <link href="http://gcc.website.design.omniaconnect.net/Content/css/target-admin.css" rel="stylesheet" type="text/css" />
+    <link href="../../dist/css/app.en.css" rel="stylesheet" type="text/css" />
+    
+
+    <!-- Plugin JS -->
+
+    <script src="http://gcc.website.design.omniaconnect.net/dist/js/app.en.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/jqueryUI/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/icheck/jquery.icheck.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/select2/select2.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/timepicker/bootstrap-timepicker.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/simplecolorpicker/jquery.simplecolorpicker.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/autosize/jquery.autosize.min.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/textarea-counter/jquery.textarea-counter.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/fileupload/bootstrap-fileupload.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/multiple-select/jquery.multiselect.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Scripts/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/datatables/DT_bootstrap.js" type="text/javascript"></script>
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/plugins/tableCheckable/jquery.tableCheckable.js" type="text/javascript"></script>
+
+    <script src="../../dist/js/jquery.ui.timepicker.js" type="text/javascript"></script>
+    <script>
+    $().ready(function(){
+        $('.timepicker_hours').each(function(i,e){
+            if($(e).attr('name') == 'FromHour'){
+                
+                
+                $(e).timepicker({
+    showMinutes: false,
+    showPeriod: true,
+    showLeadingZero: true,
+    onSelect: function(){
+        $("input[name='ToHour']").timepicker('option', { minTime: { hour: $(e).timepicker('getHour')} });
+    }
+});
+                
+                
+                //onSelect
+    //    
+
+     //   $('#timepicker_minmax_inline').timepicker('option', { maxTime: { hour: hour, minute: minute} });
+
+            }
+            if($(e).attr('name') == 'ToHour'){
+                $(e).timepicker({
+    showMinutes: false,
+    showPeriod: true,
+    showLeadingZero: true,
+    onSelect: function(){
+        $("input[name='FromHour']").timepicker('option', { maxTime: { hour: $(e).timepicker('getHour')} });
+    }
+
+});
+            }
+        });
+
+       
+$('.timepicker_minutes').timepicker({
+    showHours: false,
+    //minTime: { hour: 9, minute: 15 },
+    //maxTime: { hour: 16, minute: 30 },
+});
+
+
+    });
+    </script>
+    
+    
+    
+    <!-- App JS -->
+    <script src="http://gcc.website.design.omniaconnect.net/Content/js/target-admin.js" type="text/javascript"></script>
+ 
 
 </head>
 
@@ -136,7 +221,13 @@
             <div class="col-6">
                 <div class="form-group">
                                 <label for="exampleInputEmail1">Start Date</label>
-                                <input type="email" class="form-control" id=""  placeholder="Start Date">
+                                <input type="text" class="form-control" id=""  placeholder="Start Date">
+
+                                <input type="text" class="form-control timepicker_hours" id="" name="FromHour"  placeholder="Start Date">
+                                <input type="text" class="form-control timepicker_minutes" id="" name="FromMin"  placeholder="Start Date">
+
+                                <input type="text" class="form-control timepicker_hours" id="" name="ToHour"  placeholder="Start Date">
+                                <input type="text" class="form-control timepicker_minutes" id="" name="ToMin"  placeholder="Start Date">
                                    
                 </div>
             </div>
@@ -269,7 +360,10 @@
     </div>
     <!-- /contentarea -->
 
-    <script src="../../dist/js/app.en.js"></script>
+    <!-- <script src="../../dist/js/app.en.js"></script> -->
+
+
+
 </body>
 
 </html>

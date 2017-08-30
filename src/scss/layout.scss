@@ -1,7 +1,7 @@
 @import 'base/index';
 html,
 body {
-    overflow-x: hidden;
+   // overflow-x: hidden;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscal;
@@ -158,4 +158,41 @@ button{&:focus{
     &.texture {
         background-image: url('../../dist/img/bg/pattern.png');
     }
+}
+
+
+.pagination{
+    .page-item{
+        .page-link{
+            border-radius: 0;
+            background: none;
+            border: none;
+           // color:$grey;
+            
+        }
+        &.active .page-link{
+            color:$green;
+            font-weight: bold;
+        }
+    }
+}
+
+.ui-timepicker-table{
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+    a.ui-state-default{
+        background:$white;
+        &.ui-state-active{
+            background:$green;
+            color:$white;
+        }
+    }
+    .periods{
+        background:$petrol;
+        color:$white;
+        @include font-size($xxs-font);
+        padding: 0.5em !important;
+    }
+    
 }
