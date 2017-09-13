@@ -78,6 +78,14 @@
                 font-weight: lighter;
             }
         }
+        .modal-body{
+            table{
+                width: 100%;
+                td{
+                    border: 0;
+                }
+            }
+        }
     }
 }
 
